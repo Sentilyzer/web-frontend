@@ -15,9 +15,11 @@ class RoleTableSeeder extends Seeder {
         Role::create(
             array(
                 'name' => 'Super User'
-            ),
+            )
+        );
+        Role::create(
             array(
-                'name' => 'Project Admin'
+                'name' => 'Project Owner'
             )
         );
     }
