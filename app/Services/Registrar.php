@@ -1,6 +1,6 @@
-<?php namespace App\Services;
+<?php namespace Sentilyzer\Services;
 
-use App\User;
+use Sentilyzer\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 
